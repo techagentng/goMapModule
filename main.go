@@ -24,5 +24,5 @@ func main(){
 	for el := m.Front(); el != nil; el = el.Next() {
 		fmt.Println(el.Key, el.Value)
 	}
-	fmt.Printf("The type of m is: %v", reflect.TypeOf(m))
+	fmt.Printf("The type of m is: %v \n", reflect.TypeOf(m))
 }
